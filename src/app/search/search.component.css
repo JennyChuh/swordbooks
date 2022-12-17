@@ -1,0 +1,220 @@
+.container{
+  position: relative;
+  top: 50px;
+}
+
+.new-header{
+  height: 50px;
+}
+
+.new-left{
+  left: 20px;
+  height: 492px;
+  float: left;
+  position: relative;
+  width: 228px;
+}
+
+.new-middle{
+  left: 40px;
+  height: 492px;
+  float: left;
+  position: relative;
+  width: 710px;
+}
+
+.new-right{
+  left: 60px;
+  height: 492px;
+  float: left;
+  position: relative;
+  width: 200px;
+}
+
+.title{
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 52px;
+  padding-left: 21px;
+  background: #f2f2f2;
+}
+
+.item-list{
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.new-left ul li:nth-child(2n){
+  background: #f2f2f2;
+}
+
+li{
+  list-style: none;
+  line-height: 50px;
+}
+
+.new-left ul a{
+  display: inline-block;
+  margin-left: 20px;
+  padding-left: 26px;
+  font-size: 14px;
+  color: #333333;
+  background-image: url("https://rcode.zongheng.com/v2018/images/cateico.png");
+  background-repeat: no-repeat;
+  text-decoration: none;
+}
+
+.a0{
+  background-position: 0px 0px;
+}
+
+.a1{
+  background-position: 0px -100px;
+}
+.a2{
+  background-position: 0px -200px;
+}
+.a3{
+  background-position: 0px -300px;
+}
+.a4{
+  background-position: 0px -400px;
+}
+.a5{
+  background-position: 0px -500px;
+}
+.a6{
+  background-position: 0px -600px;
+}
+.a7{
+  background-position: 0px -700px;
+}
+.a8{
+  background-position: 0px -800px;
+}
+.a9{
+  background-position: 0px -900px;
+}
+
+.arrow-left{
+  top: 126px;
+  position: absolute;
+  background: rgba(0,0,0,.1) url("https://rcode.zongheng.com/v2018/images/indexsparr.png") left top no-repeat;
+  width: 40px;
+  height: 50px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.arrow-right{
+  left: 670px;
+  top: 126px;
+  background: rgba(0,0,0,.1) url("https://rcode.zongheng.com/v2018/images/indexsparr.png") right top no-repeat;
+  width: 40px;
+  height: 50px;
+  position: absolute;
+  cursor: pointer;
+  z-index: 2;
+}
+
+ul li img{
+  width: 710px;
+  height: 308px;
+}
+
+#ulid li{
+  float: left;
+  position: absolute;
+  left: 0;
+  animation-duration: 2s;
+  -webkit-animation-duration:2s;
+  animation-timing-function: linear;
+  -webkit-animation-name: fade;
+  animation-name: fade;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
+}
+
+.tab-list{
+  border: 2px solid #f0f0f0;
+  width: 200px;
+}
+
+.tab-list li{
+  border-bottom: 1px dotted #ccc;
+}
+
+.new-right ul a{
+  display: inline-block;
+  margin-left: 20px;
+  padding-left: 26px;
+  font-size: 14px;
+  color: #333333;
+}
+
+.list_icon{
+  width: 17px;
+  height: 16px;
+  text-align: center;
+  line-height: 16px;
+  display: inline-block;
+  color: #a9aeb7;
+  margin: 8px 9px 0 0;
+  float: left;
+  overflow: hidden;
+}
+
+.top1{
+  background: #d32f2f;
+  color: #fff;
+  width: 16px;
+  margin-right: 10px;
+}
+
+.top2{
+  background: #fc7403;
+  color: #fff;
+  width: 16px;
+  margin-right: 10px;
+}
+
+.top3{
+  background: #f8cc1c;
+  color: #fff;
+  width: 16px;
+  margin-right: 10px;
+}
+
+.top4{
+  color: darkgrey;
+  width: 16px;
+  margin-right: 10px;
+}
+
+em{
+  left: 10px;
+  top: 9px;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+}
+
+.new-footer{
+  left: 20px;
+  height: 100px;
+  width: 98.5%;
+  background: #fafafa;
+  position: relative;
+  top: 350px;
+}

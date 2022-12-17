@@ -1,0 +1,128 @@
+<div class="container">
+  <div class="new-header">
+    <div style="left:20px;display: inline-block;position: relative">
+      <svg t="1670750269594" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
+           p-id="8992" width="48" height="48">
+        <path d="M737.101 807.531 990.297 78.301 710.078 797.087Z" p-id="8993"></path>
+        <path d="M776.657 822.816 990.297 78.301 750.664 812.778Z" p-id="8994"></path>
+        <path d="M695.1 791.3 990.297 78.301 669.612 781.455Z" p-id="8995"></path>
+        <path d="M824.234 841.198 852.167 851.99 990.297 78.301Z" p-id="8996"></path>
+        <path d="M812.951 836.835 990.297 78.301 788.982 827.576Z" p-id="8997"></path>
+        <path d="M459.344 700.209 990.297 78.301 424.819 686.866Z" p-id="8998"></path>
+        <path d="M510.003 719.79 990.297 78.301 483.502 709.549Z" p-id="8999"></path>
+        <path d="M653.145 775.091 990.297 78.301 623.922 763.796Z" p-id="9000"></path>
+        <path d="M605.791 756.791 990.297 78.301 579.756 746.738Z" p-id="9001"></path>
+        <path d="M559.779 739.016 990.297 78.301 532.146 728.339Z" p-id="9002"></path>
+        <path d="M36.617 504.328 390.035 655.77 946.557 63.347Z" p-id="9003"></path>
+        <path d="M425.33 957.53 623.922 791.3 425.33 713.709Z" p-id="9004"></path>
+      </svg>
+    </div>
+    <div style="display: inline-block;position:relative;width: 400px;top:-20px;height: 50px;left: 400px">
+      <nz-input-group nzSearch="true" [nzAddOnAfter]="suffixIconButton">
+        <input type="text" nz-input placeholder="输入书名或者作者名"/>
+      </nz-input-group>
+      <ng-template #suffixIconButton>
+        <button nz-button nzType="primary" nzSearch="true" (click)="search()"><i nz-icon nzType="search"></i></button>
+      </ng-template>
+    </div>
+    <div style="position:relative;display: inline-block;top:-20px;left: 600px">
+      <a>登录</a>
+    </div>
+    <div style="position:relative;display: inline-block;top:-20px;left: 620px">
+      <a>注册</a>
+    </div>
+    <div style="position:relative;display: inline-block;left: 630px;top: -20px;">
+      <svg style="position:relative;margin-right:2px;top: 3px" t="1670752410343" class="icon" viewBox="0 0 1024 1024"
+           version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="12400" width="16" height="16">
+        <path
+          d="M523.5712 906.0352c-218.9312 0-397.056-178.1248-397.056-397.056s178.1248-397.056 397.056-397.056 397.056 178.1248 397.056 397.056-178.1248 397.056-397.056 397.056z m0-742.9632c-190.72 0-345.856 155.136-345.856 345.856s155.136 345.856 345.856 345.856 345.856-155.136 345.856-345.856-155.136-345.856-345.856-345.856z"
+          fill="#606D87" p-id="12401"></path>
+        <path
+          d="M649.6768 491.2128H397.4656c-14.1312 0-25.6-11.4688-25.6-25.6s11.4688-25.6 25.6-25.6h252.2624c14.1312 0 25.6 11.4688 25.6 25.6s-11.4688 25.6-25.6512 25.6zM649.6768 594.5344H397.4656c-14.1312 0-25.6-11.4688-25.6-25.6s11.4688-25.6 25.6-25.6h252.2624c14.1312 0 25.6 11.4688 25.6 25.6s-11.4688 25.6-25.6512 25.6z"
+          fill="#FFAF50" p-id="12402"></path>
+        <path
+          d="M523.5712 748.6976c-14.1312 0-25.6-11.4688-25.6-25.6v-257.536c0-14.1312 11.4688-25.6 25.6-25.6s25.6 11.4688 25.6 25.6v257.536c0 14.1312-11.4688 25.6-25.6 25.6z"
+          fill="#FFAF50" p-id="12403"></path>
+        <path
+          d="M521.1136 483.7376c-6.912 0-13.7728-2.7648-18.8416-8.2432L389.5808 353.2288a25.57952 25.57952 0 0 1 1.4848-36.1472 25.57952 25.57952 0 0 1 36.1472 1.4848l112.6912 122.2656a25.57952 25.57952 0 0 1-1.4848 36.1472c-4.9152 4.5568-11.1104 6.7584-17.3056 6.7584z"
+          fill="#FFAF50" p-id="12404"></path>
+        <path
+          d="M523.5712 483.7376a25.57952 25.57952 0 0 1-18.8416-42.9056l112.6912-122.2656c9.5744-10.3936 25.8048-11.0592 36.1472-1.4848a25.57952 25.57952 0 0 1 1.4848 36.1472l-112.6912 122.2656a25.36448 25.36448 0 0 1-18.7904 8.2432z"
+          fill="#FFAF50" p-id="12405"></path>
+      </svg>
+      <a>充值</a>
+    </div>
+  </div>
+  <div style="position: relative;top: 20px;">
+    <div class="new-left">
+      <div style="height: 310px;background: #fafafa;border: 1px solid #f0f0f0;position:relative;">
+        <div class="title">作品分类</div>
+        <ul class="item-list">
+          <li>
+            <a class="a0" title="奇幻玄幻">奇幻玄幻</a>
+            <a class="a1" title="武侠仙侠">武侠仙侠</a>
+          </li>
+          <li>
+            <a class="a2" title="历史军事">历史军事</a>
+            <a class="a3" title="都市娱乐">都市娱乐</a>
+          </li>
+          <li>
+            <a class="a4" title="体育竞技">体育竞技</a>
+            <a class="a5" title="科幻游戏">科幻游戏</a>
+          </li>
+          <li>
+            <a class="a6" title="悬疑灵异">悬疑灵异</a>
+            <a class="a7" title="经济文化">经济文化</a>
+          </li>
+          <li>
+            <a class="a8" title="诙谐幽默">诙谐幽默</a>
+            <a class="a9" title="全部作品">全部作品</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="new-middle">
+      <div style="position: relative;width: 700px">
+        <ul id="ulid" style="display: block;margin:0;padding-inline-start: 0px;margin-block-end: 0em;">
+          <li style="opacity: 0;z-index: 0"><img src="assets/bg.jpeg"/></li>
+          <li style="opacity: 0;z-index: 0"><img src="assets/bg1.jpeg"/></li>
+          <li style="opacity: 0;z-index: 0"><img src="assets/bg.jpeg"/></li>
+          <li style="opacity: 0;z-index: 0"><img src="assets/bg1.jpeg"/></li>
+        </ul>
+        <div class="arrow-left"></div>
+        <div class="arrow-right"></div>
+      </div>
+    </div>
+    <div class="new-right">
+      <div class="tab-list">
+        <div style="left: 10px;position:relative;">
+          <span style="font-size: 16px;color: #333;font-weight: 700;">月票榜</span>
+        </div>
+        <ul style="display: block;margin:0;padding-inline-start: 0px;margin-block-end: 0em;">
+          <li>
+            <em class="top1 list_icon">1</em>
+            <a title="体育竞技">体育竞技</a>
+          </li>
+          <li>
+            <em class="top2 list_icon">2</em>
+            <a title="体育竞技">体育竞技</a>
+          </li>
+          <li>
+            <em class="top3 list_icon">3</em>
+            <a title="体育竞技">体育竞技</a>
+          </li>
+          <li>
+            <em class="top4 list_icon">4</em>
+            <a title="体育竞技">体育竞技</a>
+          </li>
+          <li>
+            <em class="top4 list_icon">5</em>
+            <a title="体育竞技">体育竞技</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="new-footer">
+  </div>
+</div>
