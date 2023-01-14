@@ -3,17 +3,19 @@ import {NgModule} from '@angular/core';
 
 import {AppComponent} from './app.component';
 import {AppRoutingModule} from './app-routing.module';
-import {SearchComponent} from './search/search.component';
 import {NgZorroAntdModule, NzButtonModule, NzIconModule, NzInputModule, NzWaveModule} from 'ng-zorro-antd';
-import {BookmenuComponent} from './bookmenu/bookmenu.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {HttpClientModule} from '@angular/common/http';
+import {HomeComponent} from './home/home.component';
+import { PageComponent } from './page/page.component';
+import { BooksComponent } from './books/books.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SearchComponent,
-    BookmenuComponent
+    HomeComponent,
+    PageComponent,
+    BooksComponent
   ],
   imports: [
     BrowserModule,

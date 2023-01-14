@@ -1,0 +1,34 @@
+.new-nav{
+  position: relative;
+  height: 50px;
+  top: 50px;
+}
+
+.new-nav a{
+  font-size: 15px;
+  color: #333333;
+  font-weight: 1000;
+  margin-left: 120px;
+}
+
+.new-nav a:active{
+  color: #d32f2f;
+}
+
+.new-nav a:link{
+  color: #333333;
+}
+
+.new-nav a em{
+  margin-left: -23px;
+  position: relative;
+  top: 10px;
+  display: inline-block;
+  height: 4px;
+  background: #d32f2f;
+  width: 20px;
+}
+
+.new-nav a:hover{
+  color: #d32f2f;
+}

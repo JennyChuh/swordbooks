@@ -1,4 +1,15 @@
 <div class="container">
+  <div class="new-nav">
+    <a id="home" href="home">首页
+      <em></em></a>
+    <a href="books">书库</a>
+    <a>排行</a>
+    <a>分类</a>
+    <a (click)="this.message.warning('移动端暂未开放，敬请期待!');">移动端</a>
+    <a>作者专区</a>
+    <a>读者互动区</a>
+    <!--    <a>签约政策</a>-->
+  </div>
   <div class="new-header">
     <div style="left:20px;display: inline-block;position: relative">
       <svg t="1670750269594" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
@@ -89,8 +100,8 @@
           <li style="opacity: 0;z-index: 0"><img src="assets/bg.jpeg"/></li>
           <li style="opacity: 0;z-index: 0"><img src="assets/bg1.jpeg"/></li>
         </ul>
-        <div class="arrow-left"></div>
-        <div class="arrow-right"></div>
+        <div class="arrow-left" (click)="prev()"></div>
+        <div class="arrow-right" (click)="next()"></div>
       </div>
     </div>
     <div class="new-right">
@@ -124,5 +135,78 @@
     </div>
   </div>
   <div class="new-footer">
+    <div style="position: absolute">
+      <span style="font-size: 16px;color: #333;font-weight: 700;">
+        站长推荐
+      </span>
+    </div>
+    <div style="position: absolute;left:60px;top: 30px;display: flex">
+      <div>
+        <div>
+          <label>[都市] </label>
+          <a>开局送外卖，全球物价贬值一百万倍</a>
+        </div>
+        <div>
+          <label>[都市] </label>
+          <a>开局送外卖，全球物价贬值一百万倍</a>
+        </div>
+        <div>
+          <label>[都市] </label>
+          <a>开局送外卖，全球物价贬值一百万倍</a>
+        </div>
+        <div>
+          <label>[都市] </label>
+          <a>开局送外卖，全球物价贬值一百万倍</a>
+        </div>
+        <div>
+          <label>[都市] </label>
+          <a>开局送外卖，全球物价贬值一百万倍</a>
+        </div>
+      </div>
+      <div style="position:relative;left: 150px">
+        <div>
+          <label>[都市] </label>
+          <a>开局送外卖，全球物价贬值一百万倍</a>
+        </div>
+        <div>
+          <label>[都市] </label>
+          <a>开局送外卖，全球物价贬值一百万倍</a>
+        </div>
+        <div>
+          <label>[都市] </label>
+          <a>开局送外卖，全球物价贬值一百万倍</a>
+        </div>
+        <div>
+          <label>[都市] </label>
+          <a>开局送外卖，全球物价贬值一百万倍</a>
+        </div>
+        <div>
+          <label>[都市] </label>
+          <a>开局送外卖，全球物价贬值一百万倍</a>
+        </div>
+      </div>
+      <div style="position:relative;left: 260px">
+        <div>
+          <label>[都市] </label>
+          <a>开局送外卖，全球物价贬值一百万倍</a>
+        </div>
+        <div>
+          <label>[都市] </label>
+          <a>开局送外卖，全球物价贬值一百万倍</a>
+        </div>
+        <div>
+          <label>[都市] </label>
+          <a>开局送外卖，全球物价贬值一百万倍</a>
+        </div>
+        <div>
+          <label>[都市] </label>
+          <a>开局送外卖，全球物价贬值一百万倍</a>
+        </div>
+        <div>
+          <label>[都市] </label>
+          <a>开局送外卖，全球物价贬值一百万倍</a>
+        </div>
+      </div>
+    </div>
   </div>
 </div>

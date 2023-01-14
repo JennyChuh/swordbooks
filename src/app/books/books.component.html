@@ -1,0 +1,26 @@
+<div style="position: absolute">
+  <div class="new-nav">
+    <a href="home">首页</a>
+    <a id="books" href="books">书库<em></em></a>
+    <a>排行</a>
+    <a>分类</a>
+    <a (click)="this.message.warning('移动端暂未开放，敬请期待!');">移动端</a>
+    <a>作者专区</a>
+    <a>读者互动区</a>
+    <!--    <a>签约政策</a>-->
+  </div>
+  <div style="position: relative;top:40px;">
+    <span>排序方式</span>
+    <a nz-dropdown [nzDropdownMenu]="menu" [nzClickHide]="false" [(nzVisible)]="visible">
+      Hover me
+      <span nz-icon nzType="down"></span>
+    </a>
+    <nz-dropdown-menu #menu="nzDropdownMenu">
+      <ul nz-menu>
+        <li nz-menu-item>Clicking me will not close the menu.</li>
+        <li nz-menu-item>Clicking me will not close the menu also.</li>
+        <li nz-menu-item (click)="visible = false">Clicking me will close the menu</li>
+      </ul>
+    </nz-dropdown-menu>
+  </div>
+</div>
